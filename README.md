@@ -34,7 +34,11 @@ If we then input this into the `Signup for my newsletter` box, we get `/ahsdiufg
 
 This is a link to the next page.  Replace `<pwd>` with `alm0st_2_3z`.
 <br /><br />
-Once we are at the next page, we check the source code of the website.  This time, we see that the zero width space characters are seperated throughout the website.  This doesn't
+Once we are at the next page, we check the source code of the website.  This time, we see that the zero width space characters are seperated throughout the website.  <br />This doesn't
 affect us, as if we do the same thing as before, we get `755f756e6831645f6d33` which is `u_unh1d_m3` in hex.  We put this into the new input box to get a link to the flag at:
 
-```http://web.chal.csaw.io:5018//19s2uirdjsxbh1iwudgxnjxcbwaiquew3gdi/alm0st_2_3z/u_unh1d_m3```
+`http://web.chal.csaw.io:5018//19s2uirdjsxbh1iwudgxnjxcbwaiquew3gdi/alm0st_2_3z/u_unh1d_m3`
+
+##Things to Note
+
+When copy pasting the source code into the website, use <ctrl+u> and <ctrl+a>, otherwise the zero width characters won't be copied.  
