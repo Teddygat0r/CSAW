@@ -7,6 +7,7 @@ Ctf At: https://ctf.csaw.io/
 **Challenge Link**
 
 Welcome to web! Let's start off with something kinda funky :)
+<br />
 http://web.chal.csaw.io:5018
 
 **Solution**
